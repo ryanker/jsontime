@@ -1,4 +1,4 @@
-module github.com/liamylian/jsontime/v2
+module github.com/ryanker/jsontime/v2
 
 require (
 	github.com/json-iterator/go v1.1.9
