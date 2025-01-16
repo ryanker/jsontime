@@ -6,11 +6,7 @@ A [json iterator](https://github.com/json-iterator/go) extension that support cu
 
 # Install
 
-`go get github.com/ryanker/jsontime/v2`
-
-or
-
-`go mod edit -require=github.com/ryanker/jsontime/v2@v2.0.0`
+`go get github.com/ryanker/jsontime`
 
 
 ## Usage
@@ -26,7 +22,7 @@ json.Unmarshal(input, &data)
 
 with
 ```go
-import jsontime "github.com/ryanker/jsontime/v2/v2"
+import jsontime "github.com/ryanker/jsontime"
 
 var json = jsontime.ConfigWithCustomTimeFormat
 
@@ -43,7 +39,7 @@ import (
 	"fmt"
 	"time"
 	
-	jsontime "github.com/ryanker/jsontime/v2/v2"
+	jsontime "github.com/ryanker/jsontime"
 )
 
 var json = jsontime.ConfigWithCustomTimeFormat
