@@ -1,4 +1,4 @@
-package v2
+package jsontime
 
 import (
 	"github.com/stretchr/testify/assert"
