@@ -1,4 +1,4 @@
-module github.com/ryanker/jsontime
+module github.com/ryankeep/jsontime
 
 go 1.12
 

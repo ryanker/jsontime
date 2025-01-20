@@ -1,12 +1,12 @@
 # jsontime
 
-![](https://github.com/ryanker/jsontime/workflows/Test/badge.svg)
+![](https://github.com/ryankeep/jsontime/workflows/Test/badge.svg)
 
 A [json iterator](https://github.com/json-iterator/go) extension that support custom time format.
 
 # Install
 
-`go get github.com/ryanker/jsontime`
+`go get github.com/ryankeep/jsontime`
 
 
 ## Usage
@@ -22,7 +22,7 @@ json.Unmarshal(input, &data)
 
 with
 ```go
-import jsontime "github.com/ryanker/jsontime"
+import jsontime "github.com/ryankeep/jsontime"
 
 var json = jsontime.ConfigWithCustomTimeFormat
 
@@ -39,7 +39,7 @@ import (
 	"fmt"
 	"time"
 	
-	jsontime "github.com/ryanker/jsontime"
+	jsontime "github.com/ryankeep/jsontime"
 )
 
 var json = jsontime.ConfigWithCustomTimeFormat
